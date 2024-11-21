@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="assets/css/index.css" />
+	</head>
+	<body class="body">
+		<div class="content">
+			<header>
+				<img src="assets/svg/logo_gdg.svg" alt="GDG ICA" />
+			</header>
+
+			<main>
+				<img id="imgFotoIca" src="assets/images/devfest_ica.webp" alt="Bienvenidos" />
+				<section>
+					<h1>DevFest Ica 2024</h1>
+					<p>Universidad Continental, campus Ica, 95 Calle A, Ica, 11004</p>
+					<p>DevFest Ica 2024</p>
+				</section>
+				<section>
+					<h1>Formulario de registro</h1>
+					<form>
+						<div>
+							<input id="nombre" type="text" placeholder="Nombres" />
+							<span id="error-nombres" class="error">Ingrese sus nombres</span>
+						</div>
+						<div>
+							<input id="apellidos" type="text" placeholder="Apellidos" />
+							<span id="error-apellidos" class="error">Ingrese sus apellidos</span>
+						</div>
+						<div>
+							<input id="dni" type="number" placeholder="DNI" min="0" maxlength="8" />
+							<span id="error-dni" class="error">Ingrese su DNI</span>
+						</div>
+						<button id="botonRegistrarte" type="button">Registrarse</button>
+					</form>
+				</section>
+			</main>
+		</div>
+		<script src="assets/js/index.js"></script>
+	</body>
+</html>
